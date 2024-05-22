@@ -26,7 +26,8 @@ int main()
     
     motor.affichageInfo();
     motor.conduire();
-    
+    cout << endl;
+
     automobile.affichageInfo();
     automobile.conduire();
 

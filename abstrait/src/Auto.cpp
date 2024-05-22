@@ -63,5 +63,4 @@ void Auto::conduire()
     cout << "Entrain de conduire une automobile.." << endl;
 }
 
-
 /**************************************************************************/

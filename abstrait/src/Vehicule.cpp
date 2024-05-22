@@ -14,7 +14,7 @@ Vehicule::Vehicule()
 
 Vehicule::~Vehicule()
 {
-    cout << "Destruction..." << endl;
+   
 }
 
 /*************************************************************/

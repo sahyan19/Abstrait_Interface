@@ -81,3 +81,12 @@ int Vehicule::getNombreDePLace()
 
 /*************************************************************/
 
+void Vehicule::affichageInfo()
+{
+    cout << "=====================| A PROPOS |=====================" << endl;
+    cout << "Marque ->  " << marque << endl;
+    cout << "Couleur ->  " << couleur << endl;
+    cout << "Nombre de place ->  " << nombreDePLace << endl;
+}
+
+/*************************************************************/

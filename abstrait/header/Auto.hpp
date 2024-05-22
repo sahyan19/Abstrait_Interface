@@ -13,6 +13,7 @@ class Auto: public Vehicule
 
         void setVitesseMax(float vitesseMax);
         void setProvenance(string provenance);
+        void affichageInfo();
 
 
         float getVitesseMax();

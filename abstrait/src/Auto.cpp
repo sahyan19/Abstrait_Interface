@@ -54,6 +54,15 @@ string Auto::getProvenance()
     return provenance;
 }
 
+/**************************************************************************/
+
+void Auto::affichageInfo()
+{
+    Vehicule::affichageInfo();
+    cout << "Vitesse Max ->  " << vitesseMax << endl;
+    cout << "Provenance ->  " << provenance << endl;
+    cout << "=======================================================" << endl;
+}
 /********| implémentation des méthodes abstraites de la class Vehicule|*************/
 
 void Auto::conduire()
@@ -61,17 +70,5 @@ void Auto::conduire()
     cout << "Entraine de conduire..." << endl;
 }
 
-/**************************************************************************/
-
-void Auto::affichageInfo()
-{
-    cout << "=====================| A PROPOS |=====================" << endl;
-    cout << "Marque ->  " << getMarque() << endl;
-    cout << "Couleur ->  " << getCouleurouleur() << endl;
-    cout << "Nombre de place ->  " << getNombreDePLace() << endl;
-    cout << "Vitesse Max ->  " << vitesseMax << endl;
-    cout << "Provenance ->  " << provenance << endl;
-    cout << "=======================================================" << endl;
-}
 
 /**************************************************************************/

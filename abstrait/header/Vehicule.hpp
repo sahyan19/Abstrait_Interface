@@ -16,8 +16,8 @@ class Vehicule
         ~Vehicule();
         
         virtual void conduire() = 0;
-        virtual void affichageInfo() = 0;
         
+        void affichageInfo();
         void setMarque(string marque);
         void setCouleur(string couleur);
         void setNombreDePlace(int nombreDePLace);

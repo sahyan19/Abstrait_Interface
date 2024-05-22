@@ -16,4 +16,4 @@ private:
     bool running = false;
 };
 
-#endif // STRATEGYGAME_HPP
+#endif

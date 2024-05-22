@@ -14,4 +14,4 @@ public:
     virtual void handleInput(const std::string& input) = 0;
 };
 
-#endif // IJEU_HPP
+#endif

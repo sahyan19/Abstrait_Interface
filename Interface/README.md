@@ -9,7 +9,7 @@ Ce projet est une collection de trois mini-jeux interactifs jouables en mode con
 Voici la structure des dossiers du projet :
 
 ```
-project/
+Interface/
 │
 ├── header/
 │   ├── IJeu.hpp
@@ -22,7 +22,7 @@ project/
 │   ├── CombatGame.cpp
 │   └── SimulationGame.cpp
 │
-└── Main.cpp
+└── main.cpp
 ```
 
 ### Fichiers et Répertoires

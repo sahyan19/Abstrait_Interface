@@ -23,13 +23,14 @@ Vehicule::Vehicule(string marque, string couleur, int nombreDePLace)
 
 Vehicule::~Vehicule()
 {
-
+    cout << "Destruction..." << endl;
 }
 
 /*************************************************************/
 
 Vehicule::~Vehicule(string message)
 {
+    cout << message << endl;
     cout << "Destruction..." << endl;
 }
 

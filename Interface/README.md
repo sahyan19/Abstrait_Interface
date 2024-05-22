@@ -32,7 +32,7 @@ Interface/
   - `StrategyGame.hpp`, `CombatGame.hpp`, `SimulationGame.hpp`: Définitions des classes pour les jeux spécifiques.
 - `src/`: Contient les fichiers source pour les jeux.
   - `StrategyGame.cpp`, `CombatGame.cpp`, `SimulationGame.cpp`: Implémentations des classes pour les jeux spécifiques.
-- `Main.cpp`: Point d'entrée du programme, permettant de choisir et de jouer à l'un des trois jeux.
+- `main.cpp`: Point d'entrée du programme, permettant de choisir et de jouer à l'un des trois jeux.
 
 ## Compilation et Exécution
 
@@ -60,55 +60,55 @@ Interface/
    - `pause`: Mettre le jeu en pause.
    - `quit`: Quitter le jeu.
    - Pour chaque jeu, des commandes spécifiques sont disponibles :
-     - Jeu de Stratégie : `build`, `gather`, `attack`
-     - Jeu de Combat : `punch`, `kick`, `block`
-     - Jeu de Simulation : `build`, `tax`, `celebrate`
+     - Jeu de Stratégie : `Construire`, `Rassembler`, `Attaquer`
+     - Jeu de Combat : `Coup de poing`, `Coup de pied`, `bloquer`
+     - Jeu de Simulation : `Construire`, `Taxer`, `Célébrer`
 
 ## Exemples d'Utilisation
 
 ### Jeu de Stratégie
 
 ```
-Starting Strategy Game...
-Build your base, gather resources, and defeat your enemies!
-Enter command (start, pause, quit, or a game-specific action): build
-Building a structure...
-Enter command (start, pause, quit, or a game-specific action): gather
-Gathering resources...
-Enter command (start, pause, quit, or a game-specific action): attack
-Attacking enemy!
-Enter command (start, pause, quit, or a game-specific action): quit
-Quitting Strategy Game...
+Démarrage du jeu de stratégie...
+Construisez votre base, rassemblez des ressources et battez vos ennemis !
+Entrez la commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : construire
+Construire une structure...
+Entrez une commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : rassembler
+Rassembler des ressources...
+Entrez une commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : attaque
+Ennemi attaquant !
+Entrez la commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : quitter
+Quitter le jeu de stratégie...
 ```
 
 ### Jeu de Combat
 
 ```
-Starting Combat Game...
-Fight your opponent and win the match!
-Enter command (start, pause, quit, or a game-specific action): punch
-Throwing a punch!
-Enter command (start, pause, quit, or a game-specific action): kick
-Kicking the opponent!
-Enter command (start, pause, quit, or a game-specific action): block
-Blocking incoming attack!
-Enter command (start, pause, quit, or a game-specific action): quit
-Quitting Combat Game...
+Démarrage du jeu de combat...
+Combattez votre adversaire et gagnez le match !
+Saisir une commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : coup de poing
+Je donne un coup de poing !
+Entrez la commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : coup de pied
+Frapper l'adversaire !
+Entrez la commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : bloquer
+Bloquer les attaques entrantes !
+Entrez la commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : quitter
+Quitter le jeu de combat...
 ```
 
 ### Jeu de Simulation
 
 ```
-Starting Simulation Game...
-Manage your virtual world and keep your citizens happy!
-Enter command (start, pause, quit, or a game-specific action): build
-Constructing a new building...
-Enter command (start, pause, quit, or a game-specific action): tax
-Collecting taxes from citizens...
-Enter command (start, pause, quit, or a game-specific action): celebrate
-Hosting a celebration event!
-Enter command (start, pause, quit, or a game-specific action): quit
-Quitting Simulation Game...
+Démarrage du jeu de simulation...
+Gérez votre monde virtuel et gardez vos citoyens heureux !
+Entrez la commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : construire
+Construire un nouveau bâtiment...
+Saisir une commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : taxer
+Percevoir les impôts des citoyens...
+Entrez une commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : célébrer
+Organiser un événement de célébration!
+Entrez la commande (démarrer, mettre en pause, quitter ou une action spécifique au jeu) : quitter
+Quitter le jeu de simulation...
 ```
 
 ## Auteur

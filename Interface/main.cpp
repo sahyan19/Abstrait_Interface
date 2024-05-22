@@ -12,7 +12,7 @@ void runGame(IJeu& game)
     string command;
     while (true)
     {
-        cout << "Entrez une commande (start, pause, quit ou une action spécifique au jeu) : ";
+        cout << "Entrez une commande [start, pause, quit] : ";
         cin >> command;
         if (command == "start")
         {
@@ -40,7 +40,11 @@ int main()
     CombatGame combatGame;
     SimulationGame simulationGame;
 
-    cout << "Choisissez un jeu à jouer (1 : Stratégie, 2 : Combat, 3 : Simulation) : ";
+    cout << endl;
+    cout << "***********| Choisissez un jeu à jouer |********************" << endl;
+    cout << "Strategie  -> Appuiez sur '1'" << endl;
+    cout << "Combat     -> Appuiez sur '2'" << endl;
+    cout << "Simulation -> Appuiez sur '3'" << endl;
     int choice;
     cin >> choice;
 

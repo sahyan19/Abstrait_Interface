@@ -20,9 +20,9 @@ Moto::~Moto()
 
 /**************************************************************************/ 
 
-void Moto::setType(string type)
+void Moto::setType(string categorie)
 {
-    this->type = type;
+    this->categorie = categorie;
 }
 
 /**************************************************************************/ 
@@ -43,7 +43,7 @@ string Moto::getPuissance()
 
 string Moto::getType()
 {
-    return type;
+    return categorie;
 }
 
 /**************************************************************************/ 
@@ -51,8 +51,14 @@ string Moto::getType()
 void Moto::affichageInfo()
 {
     Vehicule::affichageInfo();
-    cout << "Type ->  " << type << endl;
+    cout << "Type ->  " << categorie << endl;
     cout << "Puissance ->  " << puissance << endl;
+    cout << "=====================================================" << endl;
 }
 
 /**************************************************************************/
+
+void Moto::conduire()
+{
+    cout << "Entraine de conduire..." << endl;
+}

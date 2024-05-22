@@ -1,5 +1,8 @@
 #ifndef VEHICULE_HPP
 #define VEHICULE_HPP
+#include <string>
+
+using namespace std;
 
 class Vehicule
 {
@@ -7,12 +10,10 @@ class Vehicule
     protected:
         string marque;
         string couleur;
-        int nombreDePLace;
+        int nombreDePlace;
 
     public:
         Vehicule();
-        Vehicule(string marque, string couleur, int nombreDePLace);
-        ~Vehicule(string message);
         ~Vehicule();
         
         virtual void conduire() = 0;
@@ -20,11 +21,11 @@ class Vehicule
         void affichageInfo();
         void setMarque(string marque);
         void setCouleur(string couleur);
-        void setNombreDePlace(int nombreDePLace);
+        void setNombreDePlace(int nombreDePlace);
 
         string getMarque();
         string getCouleur();
-        int getNombreDePLace();
+        int getNombreDePlace();
 
 };
 

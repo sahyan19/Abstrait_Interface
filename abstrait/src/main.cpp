@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "../header/Vehicule.hpp" 
 #include "../header/Auto.hpp"
 #include "../header/Moto.hpp"
@@ -19,7 +20,6 @@ int main()
     motor.setMarque("Honda");
     motor.setCouleur("Gris");
     motor.setNombreDePlace(2);
-    motor.setProvenance("Turquie");
     motor.setType("4 T");
     
     
@@ -28,6 +28,6 @@ int main()
     
     motor.affichageInfo();
     automobile.affichageInfo();
-    
+
     return(0);
 }

@@ -1,5 +1,6 @@
 #include "../header/Auto.hpp"
 #include <iostream>
+#include "../header/Vehicule.hpp"
 
 using namespace std;
 
@@ -8,14 +9,6 @@ using namespace std;
 Auto::Auto()
 {
 
-}
-
-/**************************************************************************/
-
-Auto:Auto(string marque, string couleur, int nombreDePLace, float vitesseMax, string provenance): Vehicule (string marque, string couleur, int nombreDePLace)
-{
-    this->vitesseMax = vitesseMax;
-    this->provenance = provenance;
 }
 
 /**************************************************************************/

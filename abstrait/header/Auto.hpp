@@ -2,13 +2,13 @@
 #define AUTO_HPP
 
 #include "../header/Vehicule.hpp"
+using namespace std;
 
 class Auto: public Vehicule
 {
 
     public:
         Auto();
-        Auto(string marque, string couleur, int nombreDePLace, float vitesseMax, string provenance);
         ~Auto();
 
         void setVitesseMax(float vitesseMax);

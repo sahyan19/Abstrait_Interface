@@ -12,25 +12,8 @@ Vehicule::Vehicule()
 
 /*************************************************************/
 
-Vehicule::Vehicule(string marque, string couleur, int nombreDePLace)
-{
-    this->marque = marque;
-    this->couleur = couleur;
-    this->nombreDePLace = nombreDePLace;
-}
-
-/*************************************************************/
-
 Vehicule::~Vehicule()
 {
-    cout << "Destruction..." << endl;
-}
-
-/*************************************************************/
-
-Vehicule::~Vehicule(string message)
-{
-    cout << message << endl;
     cout << "Destruction..." << endl;
 }
 
@@ -52,9 +35,9 @@ void Vehicule::setCouleur(string couleur)
 
 /*************************************************************/
 
-void Vehicule::setNombreDePlace(int nombreDePLace)
+void Vehicule::setNombreDePlace(int nombreDePlace)
 {
-    this->nombreDePLace = nombreDePLace;
+    this->nombreDePlace = nombreDePlace;
     cout << "Le Nombre de place a ete mis a jour..." << endl;
 }
 
@@ -74,9 +57,9 @@ string Vehicule::getCouleur()
 
 /*************************************************************/
 
-int Vehicule::getNombreDePLace()
+int Vehicule::getNombreDePlace()
 {
-    return nombreDePLace;
+    return nombreDePlace;
 }
 
 /*************************************************************/
@@ -84,9 +67,9 @@ int Vehicule::getNombreDePLace()
 void Vehicule::affichageInfo()
 {
     cout << "=====================| A PROPOS |=====================" << endl;
-    cout << "Marque ->  " << marque << endl;
-    cout << "Couleur ->  " << couleur << endl;
-    cout << "Nombre de place ->  " << nombreDePLace << endl;
+    cout << "Marque ->  " << getMarque() << endl;
+    cout << "Couleur ->  " << getCouleur() << endl;
+    cout << "Nombre de place ->  " << getNombreDePlace() << endl;
 }
 
 /*************************************************************/

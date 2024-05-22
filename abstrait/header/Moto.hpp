@@ -2,6 +2,7 @@
 #define MOTO_HPP
 
 #include "../header/Vehicule.hpp"
+using namespace std;
 
 class Moto: public Vehicule
 {
@@ -10,7 +11,7 @@ class Moto: public Vehicule
         Moto();
         ~Moto();
 
-        void setType(string type);
+        void setType(string categorie);
         void setPuissance(string puissance);
         void affichageInfo();
 
@@ -18,7 +19,7 @@ class Moto: public Vehicule
         string getPuissance();
 
     private:
-        string type;
+        string categorie;
         string puissance;
 
 };

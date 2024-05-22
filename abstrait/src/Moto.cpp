@@ -1,52 +1,31 @@
-
 #include "../header/Moto.hpp"
 #include <iostream>
 
 using namespace std;
 
-/**************************************************************************/ 
+Moto::Moto() : categorie(""), puissance("") {}
 
-Moto::Moto()
-{
-
-}
-
-/**************************************************************************/ 
-
-Moto::~Moto()
-{
-    
-}
-
-/**************************************************************************/ 
+Moto::~Moto() {}
 
 void Moto::setType(string categorie)
 {
     this->categorie = categorie;
 }
 
-/**************************************************************************/ 
-
 void Moto::setPuissance(string puissance)
 {
     this->puissance = puissance;
 }
-
-/**************************************************************************/
 
 string Moto::getPuissance()
 {
     return puissance;
 }
 
-/**************************************************************************/
-
 string Moto::getType()
 {
     return categorie;
 }
-
-/**************************************************************************/ 
 
 void Moto::affichageInfo()
 {
@@ -55,8 +34,6 @@ void Moto::affichageInfo()
     cout << "Puissance ->  " << puissance << endl;
     cout << "=====================================================" << endl;
 }
-
-/**************************************************************************/
 
 void Moto::conduire()
 {

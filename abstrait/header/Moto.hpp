@@ -2,27 +2,25 @@
 #define MOTO_HPP
 
 #include "../header/Vehicule.hpp"
-using namespace std;
+#include <string>
 
 class Moto: public Vehicule
 {
-
     public:
         Moto();
         ~Moto();
 
-        void setType(string categorie);
-        void setPuissance(string puissance);
-        void affichageInfo();
-        void conduire();
+        void setType(std::string categorie);
+        void setPuissance(std::string puissance);
+        void affichageInfo() override;
+        void conduire() override;
 
-        string getType();
-        string getPuissance();
+        std::string getType();
+        std::string getPuissance();
 
     private:
-        string categorie;
-        string puissance;
-
+        std::string categorie;
+        std::string puissance;
 };
 
 #endif

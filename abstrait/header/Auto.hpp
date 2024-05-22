@@ -2,28 +2,25 @@
 #define AUTO_HPP
 
 #include "../header/Vehicule.hpp"
-using namespace std;
+#include <string>
 
 class Auto: public Vehicule
 {
-
     public:
         Auto();
         ~Auto();
 
         void setVitesseMax(float vitesseMax);
-        void setProvenance(string provenance);
-        void affichageInfo();
-        void conduire();
-
+        void setProvenance(std::string provenance);
+        void affichageInfo() override;
+        void conduire() override;
 
         float getVitesseMax();
-        string getProvenance();
+        std::string getProvenance();
 
     private:
         float vitesseMax;
-        string provenance;
-
+        std::string provenance;
 };
 
 #endif

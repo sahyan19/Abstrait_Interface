@@ -4,7 +4,7 @@
 class Vehicule
 {
 
-    private:
+    protected:
         string marque;
         string couleur;
         int nombreDePLace;

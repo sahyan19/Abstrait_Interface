@@ -21,14 +21,14 @@ int main()
     motor.setCouleur("Gris");
     motor.setNombreDePlace(2);
     motor.setType("4 T");
-    motor.setPuissance("250 cc")
+    motor.setPuissance("250 cc");
     
-    
-    automobile.conduire();
-    motor.conduire();
     
     motor.affichageInfo();
+    motor.conduire();
+    
     automobile.affichageInfo();
+    automobile.conduire();
 
     return(0);
 }

@@ -14,6 +14,7 @@ class Moto: public Vehicule
         void setType(string categorie);
         void setPuissance(string puissance);
         void affichageInfo();
+        void conduire();
 
         string getType();
         string getPuissance();

@@ -60,7 +60,7 @@ void Auto::affichageInfo()
 
 void Auto::conduire()
 {
-    cout << "Entraine de conduire..." << endl;
+    cout << "Entrain de conduire une automobile.." << endl;
 }
 
 

@@ -22,7 +22,6 @@ Vehicule::~Vehicule()
 void Vehicule::setMarque(string marque)
 {
     this->marque = marque;
-    cout << "La marque a ete mis a jour..." << endl;
 }
 
 /*************************************************************/
@@ -30,7 +29,6 @@ void Vehicule::setMarque(string marque)
 void Vehicule::setCouleur(string couleur)
 {
     this->couleur = couleur;
-    cout << "La couleur a ete mis a jour..." << endl;
 }
 
 /*************************************************************/
@@ -38,7 +36,6 @@ void Vehicule::setCouleur(string couleur)
 void Vehicule::setNombreDePlace(int nombreDePlace)
 {
     this->nombreDePlace = nombreDePlace;
-    cout << "Le Nombre de place a ete mis a jour..." << endl;
 }
 
 /*************************************************************/

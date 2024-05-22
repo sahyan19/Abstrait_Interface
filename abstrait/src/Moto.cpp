@@ -60,5 +60,5 @@ void Moto::affichageInfo()
 
 void Moto::conduire()
 {
-    cout << "Entraine de conduire..." << endl;
+    cout << "Entrain de conduire une Moto" << endl;
 }

@@ -30,6 +30,7 @@ int main()
 
     automobile.affichageInfo();
     automobile.conduire();
+    cout << endl;
 
     return(0);
 }

@@ -21,6 +21,7 @@ int main()
     motor.setCouleur("Gris");
     motor.setNombreDePlace(2);
     motor.setType("4 T");
+    motor.setPuissance("250 cc")
     
     
     automobile.conduire();

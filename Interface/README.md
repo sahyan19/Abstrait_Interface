@@ -7,7 +7,6 @@ Ce projet est une collection de trois mini-jeux interactifs jouables en mode con
 ## Structure du Projet
 
 Voici la structure des dossiers du projet :
-
 ```
 Interface/
 │
@@ -22,9 +21,10 @@ Interface/
 │   ├── CombatGame.cpp
 │   └── SimulationGame.cpp
 │
-└── main.cpp
+├── main.cpp
+├── readme.md
+└── makefile
 ```
-
 ### Fichiers et Répertoires
 
 - `header/`: Contient les fichiers d'en-tête pour l'interface et les jeux.

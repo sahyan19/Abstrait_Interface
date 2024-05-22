@@ -1,4 +1,4 @@
-#include "SimulationGame.hpp"
+#include "./header/SimulationGame.hpp"
 #include <iostream>
 
 void SimulationGame::start()

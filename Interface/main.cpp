@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
-#include "StrategyGame.hpp"
-#include "CombatGame.hpp"
-#include "SimulationGame.hpp"
+#include "./header/StrategyGame.hpp"
+#include "./header/CombatGame.hpp"
+#include "./header/SimulationGame.hpp"
 
 using namespace std;
 

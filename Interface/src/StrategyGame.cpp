@@ -1,4 +1,4 @@
-#include "StrategyGame.hpp"
+#include "../header/StrategyGame.hpp"
 #include <iostream>
 
 void StrategyGame::start()

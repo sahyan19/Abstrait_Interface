@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -Iheader
 LDFLAGS = 
-SRC = src/StrategyGame.cpp src/CombatGame.cpp src/SimulationGame.cpp Main.cpp
+SRC = src/StrategyGame.cpp src/CombatGame.cpp src/SimulationGame.cpp main.cpp
 OBJ = $(SRC:.cpp=.o)
 EXEC = game
 

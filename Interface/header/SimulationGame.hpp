@@ -16,4 +16,4 @@ private:
     bool running = false;
 };
 
-#endif // SIMULATIONGAME_HPP
+#endif 

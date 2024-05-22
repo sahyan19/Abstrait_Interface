@@ -1,4 +1,4 @@
-#include "CombatGame.hpp"
+#include "../header/CombatGame.hpp"
 #include <iostream>
 
 void CombatGame::start()

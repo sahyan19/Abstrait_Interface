@@ -12,7 +12,7 @@ class Moto: public Vehicule
 
         void setType(std::string categorie);
         void setPuissance(std::string puissance);
-        void affichageInfo() override;
+        void affichageInfo();
         void conduire() override;
 
         std::string getType();

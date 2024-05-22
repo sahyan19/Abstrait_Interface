@@ -12,7 +12,7 @@ class Auto: public Vehicule
 
         void setVitesseMax(float vitesseMax);
         void setProvenance(std::string provenance);
-        void affichageInfo() override;
+        void affichageInfo();
         void conduire() override;
 
         float getVitesseMax();

@@ -11,9 +11,11 @@ public:
     void pause() override;
     void quit() override;
     void handleInput(const std::string& input) override;
+    int getScore() const override;
 
 private:
     bool running = false;
+    int score = 0;
 };
 
 #endif
